@@ -93,7 +93,7 @@ export const workData = [
         links: [
             { label: 'Mobile App Demo', url: 'https://youtu.be/wdqH-LMVRbk' },
             { label: 'Postman Demo', url: 'https://youtu.be/SuYWi9m9FXk' },
-            { label: 'Source Code', url: 'https://github.com/chamnan-a/DerTam' },
+            { label: 'Source Code', url: 'https://github.com/chamnan-a/Dertam' },
         ],
     },
     {
@@ -115,7 +115,6 @@ export const workData = [
         bgImage: '/savetok.png',
         links: [
             { label: 'Webite', url: 'https://savetok.onrender.com/' },
-            { label: 'Source Code', url: 'https://github.com/chamnan-a/SaveTok' },
         ],
     },
     {
