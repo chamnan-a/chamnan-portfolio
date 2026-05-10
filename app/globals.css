@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+* {
+  font-family: Outfit;
+}
+
+/* Add explicit -webkit- and standard backdrop-filter rules for broader browser support */
+.nav-backdrop {
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+/* Dark mode styles */
+html.dark {
+  @apply bg-slate-900 text-white;
+}
+
+html.dark body {
+  @apply bg-slate-900 text-white;
+}
+
+html.dark nav {
+  @apply bg-slate-800/50;
+}
+
+html.dark ul {
+  @apply text-white;
+}
+
+html.dark a {
+  @apply text-white hover:text-gray-300;
+}
+
+html.dark button {
+  @apply text-white;
+}
+
+html.dark .bg-white {
+  @apply bg-slate-800;
+}
+
+html.dark .shadow-sm {
+  @apply shadow-lg shadow-slate-900;
+}
