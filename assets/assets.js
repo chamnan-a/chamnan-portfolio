@@ -39,6 +39,8 @@ import github_icon from './github-icon.png';
 import postman_icon from './postman-icon.png';
 import mysql_icon from './mysql-icon.png';
 import docker_icon from './docker-icon.png';
+import postgresql_icon from './PostgresSQL.png';
+import sidekiq_icon from './sidekiq-800.png';
 import Link from 'next/link';
 
 export const assets = {
@@ -82,7 +84,9 @@ export const assets = {
     github_icon,
     postman_icon,
     mysql_icon,
-    docker_icon
+    docker_icon,
+    postgresql_icon,
+    sidekiq_icon
 };
 
 export const workData = [
@@ -110,14 +114,6 @@ export const workData = [
     },
 
     {
-        title: 'SaveTok Tiktok Video Download',
-        description: '',
-        bgImage: '/savetok.png',
-        links: [
-            { label: 'Webite', url: 'https://savetok.onrender.com/' },
-        ],
-    },
-    {
         title: 'E-commerce Mobile App',
         description: 'Web And Mobile',
         bgImage: '/ecom.png',
@@ -133,11 +129,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Dart, PHP, SQL, NoSQL' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Frameworks', description: 'Flutter, Laravel, Express Js, Next.js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Dart, PHP, Ruby, SQL, NoSQL' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Frameworks', description: 'Flutter, Laravel, Ruby on Rails, Express Js, Next.js' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Cambodia Academy Digital Technology' },
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.figma, assets.git, assets.github_icon, assets.postman_icon, assets.mysql_icon, assets.docker_icon
+    assets.vscode, assets.firebase, assets.figma, assets.git, assets.github_icon, assets.postman_icon, assets.mysql_icon, assets.postgresql_icon, assets.sidekiq_icon, assets.docker_icon
 ];
